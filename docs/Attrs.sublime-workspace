@@ -1,0 +1,590 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"png",
+				"png"
+			],
+			[
+				"Cosm",
+				"cosmeticlight"
+			],
+			[
+				"make",
+				"makeGeometry"
+			],
+			[
+				"rand",
+				"randomPointInCube"
+			],
+			[
+				"z",
+				"zconst"
+			],
+			[
+				"x",
+				"xconst"
+			],
+			[
+				"y",
+				"yconst"
+			],
+			[
+				"dot",
+				"dotProduct"
+			],
+			[
+				"cube",
+				"cubeVerticesArray"
+			],
+			[
+				"get",
+				"get\tGet Elements"
+			],
+			[
+				"vertices",
+				"vertices"
+			],
+			[
+				"cuber",
+				"cubeBorder"
+			],
+			[
+				"Line",
+				"LineSegments"
+			],
+			[
+				"avg",
+				"avgBlue"
+			],
+			[
+				"a",
+				"avgBlue"
+			],
+			[
+				"tree",
+				"treeradius"
+			],
+			[
+				"percent",
+				"percent_dialog"
+			],
+			[
+				"nondia",
+				"nondialog_sentence_length"
+			],
+			[
+				"dialog",
+				"dialog_sentence_length"
+			],
+			[
+				"novel",
+				"novelArr"
+			],
+			[
+				"non",
+				"nondialog_sentence_length"
+			],
+			[
+				"nov",
+				"novelArr"
+			],
+			[
+				"perce",
+				"percent_dialog"
+			],
+			[
+				"avg_",
+				"avg_length_nondialog"
+			],
+			[
+				"choose",
+				"choose_second"
+			],
+			[
+				"className",
+				"classNameSet"
+			],
+			[
+				"mak",
+				"make_new_board"
+			],
+			[
+				"ance",
+				"ancestors"
+			],
+			[
+				"anc",
+				"ancestors"
+			],
+			[
+				"an",
+				"ancestors"
+			],
+			[
+				"ancestors",
+				"ancestors_var2"
+			],
+			[
+				"get_",
+				"get_ancestors"
+			],
+			[
+				"probab",
+				"probability_conditional"
+			],
+			[
+				"indepe",
+				"independent"
+			],
+			[
+				"get_p",
+				"get_parents"
+			],
+			[
+				"var",
+				"variables"
+			],
+			[
+				"prob",
+				"probability_conditional"
+			],
+			[
+				"pro",
+				"probability"
+			],
+			[
+				"c",
+				"combinations"
+			],
+			[
+				"simpl",
+				"simplified"
+			],
+			[
+				"Look",
+				"LookupError"
+			],
+			[
+				"de",
+				"descendants"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"way",
+				"WayPoints"
+			],
+			[
+				"SAN",
+				"SANGraphics"
+			],
+			[
+				"o",
+				"occupancy"
+			],
+			[
+				"ini",
+				"initializeRandom"
+			],
+			[
+				"slide",
+				"slideval"
+			],
+			[
+				"vp",
+				"vp"
+			],
+			[
+				"num_",
+				"num_stations"
+			],
+			[
+				"total_",
+				"total_distance"
+			],
+			[
+				"max_",
+				"max_wayHome"
+			],
+			[
+				"full",
+				"full_battery_km"
+			],
+			[
+				"lun",
+				"lunch_cost"
+			],
+			[
+				"way_",
+				"way_home_prob"
+			],
+			[
+				"marg",
+				"marginwidth\tAttr"
+			],
+			[
+				"max",
+				"maxchargethres"
+			],
+			[
+				"min",
+				"minchargethres"
+			],
+			[
+				"over",
+				"overflow-wrap"
+			],
+			[
+				"country",
+				"countryName"
+			],
+			[
+				"S",
+				"shopping"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					""
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Re-run sketch"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Run sketch (Processing 3 only)"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Run sketch fullscreen"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Export sketch as application"
+				],
+				[
+					"Packages/Processing/Build Systems/Processing.sublime-build",
+					"Kill running sketches"
+				]
+			],
+			[
+				"Packages/Processing/Build Systems/Processing.sublime-build",
+				"Run sketch (Processing 3 only)"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Nina/Documents/6.031/crossword-ahli-nlutz-srflana/README.md",
+		"/Users/Nina/Documents/6.031/crossword-ahli-nlutz-srflana/puzzles/tiniest.puzzle",
+		"/anaconda2/pkgs/notebook-5.0.0-py27h5f5981d_2/lib/python2.7/site-packages/notebook/static/components/codemirror/src/input/keynames.js",
+		"/Users/Nina/Downloads/cosmetic light logo 01 (1).svg",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/data/paths/hh_to_k_formatted.json",
+		"/Users/Nina/Documents/6.031/crossword-ahli-nlutz-srflana/src/crossword/Puzzle.g",
+		"/Volumes/EMTEC/MIT Corridor data/MIT_CORRIDOR.geojson",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/MidtermScreenshot.pdf",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/InfoColors.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/G_GeoHelper.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/Final.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/F_Agent.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/extraParsers.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/E_Graph.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/B_DrawBackground.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/A5_Bundle.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/A4_Inputs.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/A3_ChooseDisplay.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/A2_Model.pde",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Final Project/Final/A1_Data.pde",
+		"/Users/Nina/Desktop/public class Server {",
+		"/:**",
+		"/Users/Nina/Downloads/A2Z-F17-master/week4-twitter/01_twitter_api_oauth/public/sketch.js",
+		"/Users/Nina/Downloads/A4988_STEPPER_CODE.ino.txt",
+		"/Users/Nina/Documents/6.031/ps4-nlutz/boards/rowsBiggerCols.txt",
+		"/Users/Nina/Documents/6.031/ps3-nlutz/src/memely/FileName.java",
+		"/Users/Nina/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/A43EB05C-9F7B-4C60-AE1E-4C95C65A2D52/NinaLutzNewNumbers",
+		"/Users/Nina/Desktop/NinaLutz",
+		"/Users/Nina/Downloads/map.osm.txt",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-vogel/assignment_3/Stats.txt",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-chiu/Assignment_3/Stats.txt",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-wong/Assignment_3/Stats.txt",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusp-spr19-Venverloo/PolygonNodes.csv",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusp-spr19-Venverloo/PolygonAttrs.csv",
+		"/Users/Nina/Desktop/temp-nodes.csv",
+		"/Users/Nina/Documents/GitHub/6.336Project/Submission_Files/Simulation/Dynamic_Analysis_Submit/newtonNdTransport.m",
+		"/Users/Nina/Documents/6.031/ps1-nlutz/test/geo/BoundsTest.java",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-kohn/Assignment_2/data/freefood_metadata_2_26_19_geocoded.csv",
+		"/Users/Nina/Documents/Classes/11.S195 Student Repos/cusw-spr19-vogel/assignment_2/map_data/stations.geojson",
+		"/Users/Nina/Documents/6.031/ps1-nlutz/test/geo/AngularTest.java",
+		"/Users/Nina/Documents/6.031/ps1-nlutz/test/geo/SearchTest.java",
+		"/Users/Nina/Documents/GitHub/cusw-SPR19/Examples/Example_Census_Parsed/data/CensusAttrs.csv",
+		"/Users/Nina/Documents/6.031/ps1-nlutz/src/geo/Angular.java",
+		"/Users/Nina/Documents/GitHub/cusw-SPR19/Tutorials/Tutorial_2/Tutorial_2_GIS/JSONMapDraw/data/example.json",
+		"/Users/Nina/Documents/GitHub/WGS224/README.txt",
+		"/Users/Nina/Documents/GitHub/cusw-SPR19/Tutorials/Tutorial_2/Tutorial_2_GIS/JSONMap_FOLLOWALONG/data/example.json",
+		"/Users/Nina/ic05-git-lyrics/all-time-favorite.txt",
+		"/Users/Nina/Downloads/246116.csv",
+		"/Users/Nina/Documents/GitHub/cusw-SPR19/Resources/MiniColors/MiniColors.pde",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/Action.java",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/TurtleGUI.java",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/Turtle.java",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/Point.java",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/PenColor.java",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/LineSegment.java",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/TurtleSoup.java",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/DrawableTurtle.java",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_5_Country_And_Census_Parsed/data/CensusNodes.csv",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/Action.class",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/TurtleSoup.class",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/TurtleGUI$AnimationThread.class",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/TurtleGUI.class",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/Turtle.class",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/Point.class",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/LineSegment.class",
+		"/Users/Nina/Desktop/ps0-nlutz/src/turtle/DrawableTurtle.class",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_5_Country_And_Census_Parsed/data/CensusAttrs.csv",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2C_CSV_GIS/CSVMap/data/smallTestAttributes.csv",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_5_Country_And_Census_Parsed/data/FloridaCensusNodes.csv",
+		"/Users/Nina/Desktop/FloridaAttributes.csv",
+		"/Users/Nina/Desktop/FloridaNodes.csv",
+		"/Users/Nina/Downloads/OkeechobeePA.kml",
+		"/Users/Nina/Downloads/map.osm-9.xml",
+		"/Users/Nina/Downloads/map.osm-8.xml",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2C_CSV_GIS/CSVMap/data/smallTestNodes.csv",
+		"/Users/Nina/Desktop/temp-attributes.csv",
+		"/Volumes/EMTEC/testfireplace/info.ini",
+		"/Users/Nina/Desktop/sketch_190131b/test.csv",
+		"/Users/Nina/Desktop/test.csv",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONMapDraw/data/example.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONMapDraw/data/buildings.geojson",
+		"/Users/Nina/Documents/GitHub/spacemaker_processing_sketch/data/input_data.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONMapDraw/data/wholeArea.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDrawInteractive/data/example.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDraw/data/example.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDraw/data/wholeArea.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDraw/map-2/buildings.geojson",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDraw/wholeArea.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDraw/example.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDraw/map-2/amenity_points.geojson",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDraw/map-2/roads.geojson",
+		"/Users/Nina/Downloads/map/roads.geojson",
+		"/Users/Nina/Downloads/map-2/roads.geojson",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/JSONDraw/example2.json",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/Tutorial_2_GIS/SimpleJSONDraw/example.json",
+		"/Users/Nina/Downloads/map.osm-4.xml",
+		"/Users/Nina/Documents/GitHub/cusw-IAP19/SimpleHTTP/exports/OSM.xml",
+		"/Users/Nina/Downloads/map.osm-2.xml",
+		"/Users/Nina/Documents/GitHub/GeoBits/Demo/exports/map(42.342, -71.358)_(42.328, -71.327).json",
+		"/Users/Nina/Documents/GitHub/ninalutz.github.io/index.html",
+		"/Users/Nina/Downloads/map.osm.xml",
+		"/Users/Nina/Documents/GitHub/GeoBits/Demo/exports/map(42.364, -71.069)_(42.356, -71.049).json",
+		"/Users/Nina/Documents/GitHub/GeoBits/Demo/exports/map(42.370, -71.114)_(42.362, -71.098).json",
+		"/Users/Nina/Documents/GitHub/GeoBits/Demo/exports/map(42.362, -71.073)_(42.355, -71.058).json",
+		"/Users/Nina/Documents/GitHub/spacemaker_processing_sketch/data/buildings.json",
+		"/Volumes/EMTEC/SimpleExample/VX.bat",
+		"/Users/Nina/Documents/GitHub/IAPVolumetricCinema/SimpleExample/VX.bat",
+		"/Users/Nina/Downloads/github-recovery-codes-2.txt",
+		"/Users/Nina/Documents/GitHub/spacemaker_processing_sketch/sketch_3d_test/data/input_data.json",
+		"/Users/Nina/Downloads/github-recovery-codes.txt",
+		"/Volumes/EMTEC/Mac_VM_Voxon/liscensekey.txt",
+		"/Volumes/EMTEC/liscensekey.txt",
+		"/Users/Nina/Documents/GitHub/IAPVolumetricCinema/MacTrial/Assets/VoxonUnity/Mono/etc/mono/mconfig/config.xml",
+		"/Users/Nina/Documents/GitHub/IAPVolumetricCinema/MacTrial/Assets/VoxonUnity/Mono/etc/mono/config",
+		"/Users/Nina/Documents/GitHub/IAPVolumetricCinema/MacTrial/exampleTest_Data/Mono/etc/mono/config",
+		"/Users/Nina/Documents/GitHub/IAPVolumetricCinema/MacTrial/exampleProject_Data/Mono/etc/mono/config",
+		"/Users/Nina/Documents/GitHub/IAPVolumetricCinema/README.md",
+		"/Users/Nina/Documents/GitHub/IAPVolumetricCinema/MacTrial/Assets/VoxonUnity/src/Utility/MonoBehaviourExtended.cs",
+		"/Users/Nina/Desktop/hello.cs",
+		"/Users/Nina/Desktop/System.Windows.Forms.dll",
+		"/Users/Nina/Documents/GitHub/VoxonStableExample/Assets/VoxonUnity/src/capture/Editor/Editor_Handler.cs",
+		"/Users/Nina/Downloads/VoxonStableExample-master/Assets/VoxonUnity/src/input/Keyboard.cs",
+		"/Users/Nina/Documents/Class F18/6.031/ps1/test/geo/MySearchTest.java",
+		"/Users/Nina/Documents/Class F18/6.031/ps1/src/geo/Angular.java",
+		"/Users/Nina/Documents/Class F18/6.031/ps1/test/geo/SearchTest.java",
+		"/Users/Nina/Documents/Class F18/6.031/ps1/src/geo/Bounds.java",
+		"/Users/Nina/Documents/Class F18/6.031/ps1/test/geo/BoundsTest.java",
+		"/Users/Nina/Documents/Class F18/6.031/ps1/test/geo/AngularTest.java"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 115.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 36.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Processing/Build Systems/Processing.sublime-build",
+	"project": "Attrs.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 387.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"draw"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
