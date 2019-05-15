@@ -3132,7 +3132,7 @@ input, select, textarea {
 			}
 
 			p {
-				text-align: justify;
+				text-align: left;
 			}
 
 		/* Section/Article */
@@ -3161,7 +3161,7 @@ input, select, textarea {
 					}
 
 				header p {
-					text-align: center;
+					text-align: left;
 				}
 
 			footer.major {
@@ -3254,7 +3254,7 @@ input, select, textarea {
 					}
 
 					#banner .inner p {
-						text-align: center;
+						text-align: left;
 					}
 
 					#banner .inner br {
