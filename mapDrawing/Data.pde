@@ -153,5 +153,13 @@ color getRedGreen(float val){
 }
 
 void keyPressed(){
-  if(key == ' ') saveFrame(lawCase + metric + ".png");
+   String fileName;
+  if(lawCase.equals("Without Roe vs. Wade: ")){
+    fileName = trim("Without" + metric + ".png");
+  }
+  else{
+    fileName = trim("With" + metric + ".png");
+  }
+ 
+  if(key == ' ') saveFrame(fileName);
 }

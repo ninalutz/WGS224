@@ -1,0 +1,21 @@
+<html>
+<body>
+<select id="dlist" onChange="swapImage()">
+<option value="images/pic01.jpg">Brain Dump</option>
+<option value="images/pic02.jpg">ASP</option>
+<option value="images/pic03.jpg">ASP.NET</option>
+<br/><br/>
+<img id="imageToSwap" src="images/pic01.jpg" />
+</select>
+
+<script type="text/javascript">
+function swapImage(){
+	var image = document.getElementById("imageToSwap");
+	var dropd = document.getElementById("dlist");
+	image.src = dropd.value;
+};
+</script>
+<br/><br/>
+<img id="imageToSwap" src="images/pic01.jpg" />
+</body>
+</html>

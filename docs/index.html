@@ -16,22 +16,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-		<style>#map { width: 800px; height: 500px; }
-	.info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
-	.legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
-
-
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}
-		#map {
-			width: 600px;
-			height: 400px;
-		}
-	</style>
-
 	</head>
 
 
@@ -87,13 +71,28 @@
 
 					<!-- One -->
 						<section class="wrapper style2 container special-alt">
-							<div class="row gtr-50">
-									<header>
-										<h2>Map of Abortion Access with Roe vs Wade</h2>
-									</header>
-									<div id="map1" align="center" height: 200px; width: 90%;> </div>
+														<header>
+								<h2>Map of Abortion Access with Roe vs Wade</h2>
+							</header>
+						<section>
+						<select id="dlist" onChange="swapImage()">
+							<option value="images/pic01.jpg"> &nbspTest1&nbsp </option>
+							<option value="images/pic02.jpg"> &nbspTest2&nbsp </option>
+							<option value="images/pic03.jpg"> &nbspTest3&nbsp </option>
+							<br/><br/>
+							<img id="imageToSwap" src="images/pic01.jpg" />
+							</select>
 
-							</div>
+							<script type="text/javascript">
+							function swapImage(){
+								var image = document.getElementById("imageToSwap");
+								var dropd = document.getElementById("dlist");
+								image.src = dropd.value;
+							};
+							</script>
+							<br/><br/>
+							<img id="imageToSwap" src="images/pic01.jpg" />
+						</section>
 						</section>
 
 						<section class="wrapper style2 container special-alt">
@@ -101,7 +100,25 @@
 									<header>
 										<h2>Map of Abortion Access WITHOUT Roe vs Wade</h2>
 									</header>
-									<div id="map2" align="center" height: 200px; width: 90%;> </div>
+															<section>
+						<select id="dlist2" onChange="swapImage2()">
+							<option value="images/pic01.jpg"> &nbspTest2122&nbsp </option>
+							<option value="images/pic02.jpg"> &nbspTest12312&nbsp </option>
+							<option value="images/pic03.jpg"> &nbspTest13213&nbsp </option>
+							<br/><br/>
+							<img id="imageToSwap2" src="images/pic01.jpg" />
+							</select>
+
+							<script type="text/javascript">
+							function swapImage2(){
+								var image = document.getElementById("imageToSwap2");
+								var dropd = document.getElementById("dlist2");
+								image.src = dropd.value;
+							};
+							</script>
+							<br/><br/>
+							<img id="imageToSwap2" src="images/pic01.jpg" />
+						</section>
 
 							</div>
 						</section>
