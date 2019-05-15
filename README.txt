@@ -1,4 +1,4 @@
-Final Project for WGS.224 at MIT
+Final Project for WGS.224 at MIT Spring 2019
 Alexus Jones
 Nina Lutz
 
