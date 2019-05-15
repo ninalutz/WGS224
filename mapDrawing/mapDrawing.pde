@@ -13,8 +13,28 @@ void setup(){
 
 void draw(){
   background(255);
+  smooth();
+  fill(0);
+  textSize(20);
+  text("With Roe vs. Wade: Overall", 20, 30);
   //Draw all polygons 
   for(int i = 0; i<polygons.size(); i++){
     polygons.get(i).draw();
   }
+  drawColorLegend();
+}
+
+void drawColorLegend(){
+  setGradient(20, height - 70, 100, 20, bad, mid);
+  setGradient(120, height - 70, 100, 20, mid, good);
+}
+
+void setGradient(int x, int y, float w, float h, color c1, color c2 ) {
+    noFill();
+    for (int i = x; i <= x+w; i++) {
+      float inter = map(i, x, x+w, 0, 1);
+      color c = lerpColor(c1, c2, inter);
+      stroke(c);
+      line(i, y, i, y+h);
+    }
 }
