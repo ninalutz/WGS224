@@ -20,30 +20,30 @@ void loadData(){
   ScoreWithRoe = new HashMap<String, Integer>();
 
   //With roe vs wade metrics:
-  // lawCase = "With Roe vs. Wade: ";
-  // metric = "Unconstitutional Gestational Bans";
-  // metric = "Two Trips Required for Abortion";
-   //metric = "Medicaid Coverage Restricted";
-   //metric = "Telemedicine Banned for Abortion";
+   lawCase = "With Roe vs. Wade: ";
+   metric = "Unconstitutional Gestational Bans";
+ //  metric = "Two Trips Required for Abortion";
+  // metric = "Medicaid Coverage Restricted";
+  // metric = "Telemedicine Banned for Abortion";
   // metric = "Parental Involvement Required";
   // metric = "Clinic Regulations";
   // metric = "State Constitution Protects Abortion Rights";
-  // metric = "State Law Protects Abortion Rights";
+ //  metric = "State Law Protects Abortion Rights";
   // metric = "Medicaid Coverage for Abortion";
    //metric = "APC Provision of Abortion";
    //metric = "Health Insurance Plans Must Cover Abortion";
    //metric = "Access to Abortion Clinics Protected";
-  // metric = "Overall Score"; discrete = false;
+   //metric = "Overall Score"; discrete = false;
    
    //Without roe vs wade metrics:
-   lawCase = "Without Roe vs. Wade: ";
+   //lawCase = "Without Roe vs. Wade: ";
    //metric = "Constitutional Protection"; 
    //metric = "Statutory Protection";
    //metric = "Pre-Roe Ban on Books";
    //metric = "Unconsitutional Gestational Limits";
    //metric ="Trigger Ban";
    //metric = "Legislative"; discrete = false;
-   metric = "Score"; discrete = false;
+   //metric = "Score"; discrete = false;
    
   if(lawCase.equals("Without Roe vs. Wade: ")){
   for (TableRow row : withoutRoe.rows()) {
