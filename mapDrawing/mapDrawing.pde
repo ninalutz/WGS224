@@ -1,7 +1,8 @@
 MercatorMap map;
 //(-124.848974, 24.396308) - (-66.885444, 49.384358)
+
 void setup(){
-    size(1000, 650);
+    size(1200, 800);
    // map = new MercatorMap(width, height, -117.339757, 25.91619, -124.96466, -71.3577635769, 0);
    // map = new MercatorMap(width, height, 42.3636, 42.3557, -71.1034, -71.0869, 0);
    //this(mapScreenWidth, mapScreenHeight, DEFAULT_TOP_LATITUDE, DEFAULT_BOTTOM_LATITUDE, DEFAULT_LEFT_LONGITUDE, DEFAULT_RIGHT_LONGITUDE, DEFAULT_ROTATION);
@@ -15,18 +16,22 @@ void draw(){
   background(255);
   smooth();
   fill(0);
-  textSize(20);
-  text("With Roe vs. Wade: Overall", 20, 30);
+  textSize(30);
+  text(lawCase + metric, 20, 45);
   //Draw all polygons 
   for(int i = 0; i<polygons.size(); i++){
     polygons.get(i).draw();
   }
-  drawColorLegend();
+    if(!discrete){
+    textSize(20);
+    text("Restricted to Accessible: ", 40, height-100);
+    drawColorLegend();
+    }
 }
 
 void drawColorLegend(){
-  setGradient(20, height - 70, 100, 20, bad, mid);
-  setGradient(120, height - 70, 100, 20, mid, good);
+  setGradient(40, height - 90, 150, 45, bad, mid);
+  setGradient(190, height - 90, 150, 45, mid, good);
 }
 
 void setGradient(int x, int y, float w, float h, color c1, color c2 ) {

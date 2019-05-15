@@ -2,25 +2,65 @@ JSONObject example;
 JSONArray features;
 JSONObject wholeArea;
 //Look at https://processing.org/reference/JSONObject.html for more info
-Table withRoe;
-HashMap<String, Integer> overallScoreWithRoe;
-
+Table withRoe, withoutRoe;
+HashMap<String, Integer> ScoreWithRoe;
+int minScore, maxScore;
 color good = color(17, 193, 61);
 color bad = color(250, 20, 20);
 color mid = color(255, 255, 0);
-
+String metric;
+boolean discrete = true;
+String lawCase;
 void loadData(){
   //Whole Area
   wholeArea = loadJSONObject("gz_2010_us_040_00_500k.json");
   features = wholeArea.getJSONArray("features");
   withRoe = loadTable("WithRoe.csv", "header");
-  overallScoreWithRoe = new HashMap<String, Integer>();
-  for (TableRow row : withRoe.rows()) {
-    
+  withoutRoe = loadTable("WithoutRoe.csv", "header");
+  ScoreWithRoe = new HashMap<String, Integer>();
+
+  //With roe vs wade metrics:
+  // lawCase = "With Roe vs. Wade: ";
+  // metric = "Unconstitutional Gestational Bans";
+  // metric = "Two Trips Required for Abortion";
+   //metric = "Medicaid Coverage Restricted";
+   //metric = "Telemedicine Banned for Abortion";
+  // metric = "Parental Involvement Required";
+  // metric = "Clinic Regulations";
+  // metric = "State Constitution Protects Abortion Rights";
+  // metric = "State Law Protects Abortion Rights";
+  // metric = "Medicaid Coverage for Abortion";
+   //metric = "APC Provision of Abortion";
+   //metric = "Health Insurance Plans Must Cover Abortion";
+   //metric = "Access to Abortion Clinics Protected";
+  // metric = "Overall Score"; discrete = false;
+   
+   //Without roe vs wade metrics:
+   lawCase = "Without Roe vs. Wade: ";
+   //metric = "Constitutional Protection"; 
+   //metric = "Statutory Protection";
+   //metric = "Pre-Roe Ban on Books";
+   //metric = "Unconsitutional Gestational Limits";
+   //metric ="Trigger Ban";
+   //metric = "Legislative"; discrete = false;
+   metric = "Score"; discrete = false;
+   
+  if(lawCase.equals("Without Roe vs. Wade: ")){
+  for (TableRow row : withoutRoe.rows()) {
     String state = row.getString("State");
-    Integer score = row.getInt("Overall score");
-    overallScoreWithRoe.put(state, score);
+    Integer score = row.getInt(metric);
+    ScoreWithRoe.put(state, score);
   }
+  }
+  else{
+    for (TableRow row : withRoe.rows()) {
+    String state = row.getString("State");
+    Integer score = row.getInt(metric);
+    ScoreWithRoe.put(state, score);
+  }}
+  
+  minScore = -6;
+  maxScore = 6;
 
 }
 
@@ -51,11 +91,7 @@ void parseData(){
       //Create the Polygon with the coordinate PVectors
       Polygon poly = new Polygon(coords);
       try{
-        poly.score = overallScoreWithRoe.get(stateName);
-        float val = map(poly.score, -6, 6, 0, 100);
-        println(val);
-        poly.fillColor = getRedGreen(val);
-        poly.makeShape();
+        assignColor(poly, stateName);
       }
       catch(Exception e){}
       polygons.add(poly);
@@ -76,11 +112,7 @@ void parseData(){
         //Create the Polygon with the coordinate PVectors
         Polygon poly = new Polygon(coords);
       try{
-        poly.score = overallScoreWithRoe.get(stateName);
-        float val = map(poly.score, -6, 6, 0, 100);
-        println(val);
-        poly.fillColor = getRedGreen(val);
-        poly.makeShape();
+        assignColor(poly, stateName);
       }
       catch(Exception e){}
         polygons.add(poly);  
@@ -89,9 +121,24 @@ void parseData(){
   }
 }
 
+void assignColor(Polygon poly, String stateName){
+      int score = ScoreWithRoe.get(stateName);
+      poly.score = score;
+      float val = map(poly.score, minScore, maxScore, 0, 100);
+    //  println(val);
+      if(!discrete){
+      poly.fillColor = getRedGreen(val);
+      }
+      if(discrete){
+        if(score == 0) poly.fillColor = color(100);
+        if(score == -1) poly.fillColor = color(bad);
+        if(score == 1 || score == 2) poly.fillColor = color(good);
+      }
+      poly.makeShape();
+}
+
 color getRedGreen(float val){
   color c = color(0, 0, 0);
-  
   
   if(val > 50){
     c = lerpColor(mid, good, val/100);
@@ -103,4 +150,8 @@ color getRedGreen(float val){
     c = lerpColor(bad, mid, val/100);
   }
   return c;
+}
+
+void keyPressed(){
+  if(key == ' ') saveFrame(lawCase + metric + ".png");
 }
