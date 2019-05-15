@@ -20,8 +20,8 @@ void loadData(){
   ScoreWithRoe = new HashMap<String, Integer>();
 
   //With roe vs wade metrics:
-   lawCase = "With Roe vs. Wade: ";
-   metric = "Unconstitutional Gestational Bans";
+   //lawCase = "With Roe vs. Wade: ";
+   //metric = "Unconstitutional Gestational Bans";
  //  metric = "Two Trips Required for Abortion";
   // metric = "Medicaid Coverage Restricted";
   // metric = "Telemedicine Banned for Abortion";
@@ -36,13 +36,13 @@ void loadData(){
    //metric = "Overall Score"; discrete = false;
    
    //Without roe vs wade metrics:
-   //lawCase = "Without Roe vs. Wade: ";
+   lawCase = "Without Roe vs. Wade: ";
    //metric = "Constitutional Protection"; 
    //metric = "Statutory Protection";
    //metric = "Pre-Roe Ban on Books";
    //metric = "Unconsitutional Gestational Limits";
    //metric ="Trigger Ban";
-   //metric = "Legislative"; discrete = false;
+   metric = "Legislative"; discrete = false;
    //metric = "Score"; discrete = false;
    
   if(lawCase.equals("Without Roe vs. Wade: ")){
@@ -59,8 +59,8 @@ void loadData(){
     ScoreWithRoe.put(state, score);
   }}
   
-  minScore = -6;
-  maxScore = 6;
+  minScore = -2;
+  maxScore = 2;
 
 }
 
